@@ -1,0 +1,14 @@
+version: '0.1'
+services:
+  webserver:
+    build:
+      context: .
+    restart: on-failure
+    ports:
+      - "8080:8080"
+    volumes:
+      - BasicWebServer_logs:/code/Logs
+
+volumes:
+  BasicWebServer_logs: { }
+

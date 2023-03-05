@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>A Simple Energy Converter</title>
+    <link rel="stylesheet" href="../styles/SEC-styles.css">
+    <script defer src="../scripts/SEC-conversion.js"></script>
+</head>
+<body>
+<header class="header">
+    <h1>A simple energy converter</h1>
+</header>
+
+<div class="page">
+    <div class="container">
+        <div class="field inputEnergyField">
+            <div class="form form-item">
+                <label for="inputEnergyField">Input Energy </label>
+                <input type="number" required placeholder="0" id="inputEnergyField" class="inputEnergyField">
+            </div>
+            <div class="form-row form-item">
+                <label for="inputEnergyUnit"></label>
+                <select id="inputEnergyUnit" name="inputEnergyUnit">
+                    <option selected value="ev">Electron volts (eV)</option>
+                    <option value="au">Hartree (a.u.)</option>
+                    <option value="nm">Wavelength (nm)</option>
+                    <option value="cmmo">Wave numbers (cm**-1)</option>
+                </select>
+            </div>
+        </div>
+        <div class="field outputEnergyField">
+            <ul class="energyList">
+                <li><p id="textValueInEV"></p></li>
+                <li><p id="textValueInNM"></p></li>
+                <li><p id="textValueInCMMO"></p></li>
+                <li><p id="textValueInAU"></p></li>
+            </ul>
+        </div>
+    </div>
+</div>
+</body>
+</html>

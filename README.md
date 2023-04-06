@@ -1,4 +1,4 @@
-Just another basic web server using node.js for educational purposes in JS.
+Just another basic web server using node.js for educational purposes and practise in JS.
 
 Reused a simple energy converter as a test webpage.
 

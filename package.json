@@ -1,0 +1,10 @@
+{
+  "scripts": {
+    "start": "node src/startup-basic-server.js"
+  },
+  "dependencies": {
+    "date-fns": "^2.29.3",
+    "uuid": "^9.0.0"
+  },
+  "type": "module"
+}
